@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>Raha – Mental Wellness Circle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="bg-[#EAF6F6] flex flex-col items-center justify-center h-screen space-y-6 text-center">
+
+  <!-- User spoken message -->
+  <div id="userText" class="text-xl font-medium text-gray-700 min-h-[32px]"></div>
+
+  <!-- Microphone Button -->
+  <button id="voiceBtn" class="w-48 h-48 bg-gradient-to-r from-purple-300 to-pink-300 rounded-full animate-pulse shadow-lg focus:outline-none flex items-center justify-center">
+    🎤
+  </button>
+
+  <!-- Assistant reply message -->
+  <div id="botReply" class="text-lg text-gray-600 italic min-h-[28px] max-w-lg px-4"></div>
+
+</body>
+</html>
